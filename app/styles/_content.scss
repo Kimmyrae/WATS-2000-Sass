@@ -1,3 +1,5 @@
+
+
 .marketing {
     h4 {
         color: $brand-warning;
@@ -10,4 +12,8 @@
 .container .jumbotron {
     @include border-top-radius(0px);
     @include border-bottom-radius(50px);
+}
+
+body {
+    color: green;
 }
