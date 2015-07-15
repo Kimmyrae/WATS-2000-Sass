@@ -22,6 +22,7 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 body {
   padding-top: 20px;
   padding-bottom: 20px;
+  @include gradient-radial($inner-color: #ab1414, $outer-color: #807171	)
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
